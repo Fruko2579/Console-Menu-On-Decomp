@@ -86,12 +86,15 @@ public:
     ReanimationID               mMainFlowerReanimID;
     ReanimationID               mExtraFlowerReanimID;
     ReanimationID               mPurpleCloudReanimID;
+    ReanimationID               mGraveyardReanimID;
+    ReanimationID               mGraveyardleavesReanimID;
+    ReanimationID               mTombstoneOverlayerReanimID;
     int                         mLeafCounter;               
     SelectorAnimState           mSelectorState;             
     int                         mLevel;                     
     bool                        mLoading;                   
     ToolTipWidget*              mToolTip;                   
-    bool                        mHasTrophy;                 
+    bool                        mHasTrophy;
     bool                        mUnlockSelectorCheat;       
     bool                        mDebugText;
     int                         mMovementTimer;
@@ -100,6 +103,8 @@ public:
     int                         mCurrentX;
     int                         mDestinationX;
     bool                        mEnableButtonsTransition;
+    bool                        mLeftSide;
+    bool                        mRightSide;
 
 public:
     GameSelector(LawnApp* theApp);

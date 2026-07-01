@@ -1,0 +1,58 @@
+You need to change image names in resources.xml because name of sprites are different and add the new ones
+
+If you want to add versus and coop grave with buttons just remove the codes that hides it
+
+Just use the sprites in "reanim" folder
+
+Resources.xml Replace Stuffs:
+
+<Image id="SELECTORSCREEN_OPTIONS1" path="help" />
+<Image id="SELECTORSCREEN_OPTIONS2" path="help_pressed" />
+<Image id="SELECTORSCREEN_QUIT1" path="return" />
+<Image id="SELECTORSCREEN_QUIT2" path="return_pressed"  />
+<Image id="SELECTORSCREEN_ALMANAC" path="almanac_pot"  />
+<Image id="SELECTORSCREEN_ALMANACHIGHLIGHT" path="almanac_pot_highlight"  />
+<Image id="SELECTORSCREEN_STORE" path="shop"  />
+<Image id="SELECTORSCREEN_STOREHIGHLIGHT" path="shop_highlight"  />
+<Image id="SELECTORSCREEN_ZENGARDEN" path="zengarden"  />
+<Image id="ACHIEVEMENT_BUTTON" path="achievements"  />
+<Image id="ACHIEVEMENT_HIGHLIGHT" path="achievements_pressed"  />
+<Image id="SELECTORSCREEN_ZENGARDENHIGHLIGHT" path="zengarden_highlight"  />
+
+<Image id="SELECTORSCREEN_ADVENTURE_BUTTON" path="adventure" />
+<Image id="SELECTORSCREEN_ADVENTURE_HIGHLIGHT" path="adventure_selected" />
+<Image id="SELECTORSCREEN_STARTADVENTURE_BUTTON" path="start_adventure" />
+<Image id="SELECTORSCREEN_STARTADVENTURE_HIGHLIGHT" path="start_adventure_selected" />
+<Image id="SELECTORSCREEN_SURVIVAL_BUTTON" path="minigames_button" />
+<Image id="SELECTORSCREEN_SURVIVAL_HIGHLIGHT" path="minigames_selected" />
+<Image id="SELECTORSCREEN_CHALLENGES_BUTTON" path="puzzle_button" />
+<Image id="SELECTORSCREEN_CHALLENGES_HIGHLIGHT" path="puzzle_selected" />
+<Image id="SELECTORSCREEN_VASEBREAKER_BUTTON" path="survival_button" />
+<Image id="SELECTORSCREEN_VASEBREAKER_HIGHLIGHT" path="survival_selected" />
+
+Resources.xml Added Stuffs:
+
+<Image id="SELECTORSCREEN_EXTRAS_BUTTON" path="more" />
+<Image id="SELECTORSCREEN_EXTRAS_HIGHLIGHT" path="more_selected" />
+<Image id="SELECTORSCREEN_EXTRASBACK_BUTTON" path="Back_ball_button" />
+<Image id="SELECTORSCREEN_EXTRASBACK_HIGHLIGHT" path="Back_ball_button_selected" />
+<Image id="SELECTORSCREEN_MORE_BUTTON" path="more_ways" />
+<Image id="SELECTORSCREEN_MORE_HIGHLIGHT" path="more_ways_selected" />
+<Image id="SELECTORSCREEN_MOREBACK_BUTTON" path="back_stone_button" />
+<Image id="SELECTORSCREEN_MOREBACK_HIGHLIGHT" path="back_stone_selected" />
+
+<Sound id="MENU_L" path="Menu_L_st" />
+<Sound id="MENU_C" path="Menu_C_st" />
+<Sound id="MENU_R" path="Menu_R_st" />
+
+Issues:
+
+1 - It's not 1:1 accurate.
+
+2 - No crow yet will be in next commit
+
+3 - Purple cloud doesnt has lightning
+
+Credit me as Fruko or Fruko2579
+
+ffffffffff yeah credits needed.
