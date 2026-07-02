@@ -1030,7 +1030,7 @@ void GameSelector::Update()
 		if (mStartingGameCounter == 125)
 			mApp->PlaySample(Sexy::SOUND_EVILLAUGH);
 	}
-	if (mLeftSide)
+	/*if (mLeftSide)
 	{
 		mApp->mSoundSystem->StopFoley(FoleyType::FOLEY_MENU_R);
 		mApp->mSoundSystem->StopFoley(FoleyType::FOLEY_MENU_C);
@@ -1047,7 +1047,7 @@ void GameSelector::Update()
 		mApp->mSoundSystem->StopFoley(FoleyType::FOLEY_MENU_R);
 		mApp->mSoundSystem->StopFoley(FoleyType::FOLEY_MENU_L);
 		mApp->mSoundSystem->PlayFoley(FoleyType::FOLEY_MENU_C);
-	}
+	}*/
 
 	Reanimation* aSelectorReanim = mApp->ReanimationGet(mSelectorReanimID);
 	switch (mSelectorState)
